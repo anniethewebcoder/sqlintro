@@ -54,5 +54,5 @@ Paste your SQL statement below.  You will have to join Orders, OrderDetails, and
 SELECT Orders.OrderID, Products.ProductName FROM Orders
 JOIN OrderDetails ON OrderDetails.OrderID = Orders.OrderID
 JOIN Products ON OrderDetails.ProductID = Products.ProductID
-Where Products.ProductName LIKE "%Tofu%";
+WHERE Products.ProductName LIKE "%Tofu%";
 
